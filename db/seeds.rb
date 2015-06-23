@@ -14,7 +14,7 @@ categories = [
   "love"
 ]
 
-(0..100).each do |i|
+(0..500).each do |i|
   category = categories[i % 5]
   Post.create(category: category)
 end
